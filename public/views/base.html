@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>Nelson - Furniture eCommerce Bootstrap 4 Template</title>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- Place favicon.ico in the root directory -->
+{% include "head.html" %}
+</head>
+
+<body>
+      <div id="main-wrapper">
+        {% include "header.html" %}
+        {% block slider %} {% endblock %}
+        {% block content%} {% endblock %}
+      </div>
+{% include "footer.html" %}
+{% include "javascript.html" %}
+</body>
+
+</html>
